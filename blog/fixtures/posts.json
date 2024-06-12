@@ -1,0 +1,16 @@
+[
+    {
+        "model": "blog.post",
+        "pk": null,
+        "fields": {
+            "title": "Monday training",
+            "slug": "monday-training",
+            "author": 1,
+            "content": "<p><b>10k steps\r\n</b></p><p>\r\nhh.\r\n</p><p><b>\r\ntt\r\n</b></p><p>\r\n hh\r\n</p><p><b>\r\ngg\r\n</b></p><p>\r\nBbbbbb</p><p><b>\r\n\r\nDDDD</b></p><p>\r\n\r\nJJJJJ\r\n</p><p><b>\r\nLoooo\r\n</b></p><p>\r\nLlll\r\n</p><p><b>\r\npppp\r\n</b></p><p>\r\npp\r\n\r\nWWW</p>",
+            "created_on": "2023-07-14T13:58:53.884Z",
+            "status": 1,
+            "excerpt": "bbbb",
+            "updated_on": "2023-09-13T09:43:19.754Z"
+        }
+    }
+]
