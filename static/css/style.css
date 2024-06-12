@@ -6,11 +6,11 @@ body {
     font-family: Lato, sans-serif;
     font-size: 1.4rem;
     font-weight: 700;
-    color: #4A4A4F;
+    color: #000000;
 }
 
 .red-o {
-    color: #E84610;
+    color: #000000;
 }
 
 .thin {
@@ -18,15 +18,15 @@ body {
 }
 
 .light-bg {
-    background-color: #4A4A4F;
+    background-color: #000000;
 }
 
 .dark-bg {
-    background-color: #445261;
+    background-color: #E84610;
 }
 
 .main-bg {
-    background-color: #4A4A4F;
+    background-color: #000000;
 }
 
 .card {
