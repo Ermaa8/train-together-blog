@@ -1,3 +1,8 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Open+Sans:wght@300;500&family=Playfair+Display:wght@600&display=swap');
+
+
 body {
     background-color: #ffffff;
 }
@@ -26,7 +31,7 @@ body {
 }
 
 .main-bg {
-    background-color: #ffffff;
+    background-color: #000000;
 }
 
 .card {
@@ -113,7 +118,7 @@ body {
 
 .btn-signup,
 .btn-edit {
-    background-color: #ffffff;
+    background-color: #000000;
     color: #000000;
 }
 
@@ -130,7 +135,7 @@ body {
 
 .link:hover,
 .link:active {
-    color: #4A4A4F;
+    color: #ffffff;
     text-decoration: underline;
 }
 
@@ -157,5 +162,5 @@ body {
 }
 
 .approval {
-    color: #4A4A4F;
+    color: #ffffff;
 }
