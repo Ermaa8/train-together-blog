@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background-color: #000000;
 }
 
 .brand {
@@ -84,7 +84,7 @@ body {
     right: 90%;
     height: 100%;
     width: 150%;
-    background: #4A4A4F;
+    background: #00000a;
     -webkit-transform: skew(15deg);
     -moz-transform: skew(15deg);
     transform: skew(15deg);
@@ -111,9 +111,17 @@ body {
     color: #000000;
 }
 
+body {
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #E84610;
+}
+
 .btn-signup,
 .btn-edit {
-    background-color: #000000;
+    background-color: #E84610;
     color: #000000;
 }
 
