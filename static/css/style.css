@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-  
 body { 
     background-color: #000000;
 }
@@ -62,7 +61,7 @@ body {
 }
 
 .masthead-text {
-    background-color: #4A4A4F;
+    background-color: #000000;
     color: #E84610;
     position: relative;
 }
