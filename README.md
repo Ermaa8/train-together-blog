@@ -34,5 +34,11 @@ The website has mix of dark, white and red colours. Those colours and dsign of t
 All of the images at the website are designed by different authors to make sure that users have a choice between a gym training and outside in nature training.
 
 #### Wireframes
+<details>
+
+ <summary>Landing Page</summary>
+ ![Landing Page](static/images/wireframe.png)</details>
+
+
 
 
