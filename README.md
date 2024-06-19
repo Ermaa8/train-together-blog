@@ -37,7 +37,10 @@ All of the images at the website are designed by different authors to make sure 
 <details>
 
  <summary>Landing Page</summary>
- ![Landing Page](static/images/wireframe.png)</details>
+
+![Landing Page](static/images/wireframe.png)
+
+ </details>
 
 
 
