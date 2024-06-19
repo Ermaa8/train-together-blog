@@ -14,7 +14,8 @@ A visitor to Train Together Blog would be someone who is most likely an adult wh
 #### EPIC | Post List
 1. As a user i want to se list of posts.
 2. Give a site more than one post at the time and a list is seen when a user opens a site.
-#### EPIC | User Navigation
+#### EPIC | User About
+1. 
 #### EPIC | Recipe Management
 #### EPIC | Recipe Interaction
 #### EPIC | Mealplan Management
