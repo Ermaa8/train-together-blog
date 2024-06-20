@@ -7,6 +7,7 @@ This site acts as a repository for training sessions where user can store their 
 The live link can be found here -[Train Together Blog]
 
 # Table of Contents
+- [Train Together Blog](#train-together-blog)
 
 ## User Experience (UX)
 A visitor to Train Together Blog would be someone who is most likely an adult who enjoy training inside and outside  and someone who want to save a time and effort planing too much infront of every training session.
@@ -41,6 +42,25 @@ All of the images at the website are designed by different authors to make sure 
 ![Landing Page](static/images/wireframe.png)
 
  </details>
+
+ ## Agile Methodology
+ GitHub projects was used to manage development process using agile approach. GitHub issues were created for every User Story and every User Story has defined acceptance criteria to make sure UserStory has been compleated.
+
+## Testing
+Testing and results can be found here
+
+### User Authentication
+- Django's LoginRequiredMixin is used to make sure that users that are non-authenticated do not have acces to secure pages.
+
+## Features
+### Header
+
+**Navigation Bar**
+- The navigation bar is present at the top of every page and includes links, as well as name of the site and a slogan.
+- When a user is logged in, menu changed to , Home
+- 
+- 
+
 
 
 
