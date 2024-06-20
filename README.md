@@ -57,9 +57,41 @@ Testing and results can be found here
 
 **Navigation Bar**
 - The navigation bar is present at the top of every page and includes links, as well as name of the site and a slogan.
-- When a user is logged in, menu changed to , Home
-- 
-- 
+- When a user is logged in, menu changed to , Home, About, Logout. 
+
+### Footer
+- The footer section includes links to Facebook, Instagram, Twitter and Youtube.
+
+### Home Page
+- Home page includes every post for this website. There is variation between gym training and outside in nature training so that every user can find something for themselves. In this section there is possibility to leave, uppdate and edit a comment as well as a delete a comment.
+
+**About**
+- About section includes information about this blog.
+
+### User Account Pages
+**Sign Up**
+**Log In**
+**Log Out**
+
+## Deployment - Heroku
+- To deploy this page to Heroku from its GitHub repository, the following steps were taken:
+
+### Create the Heroku App:
+- Log in to Heroku and create account.
+- On the main page click the button labelled New in the top right corner and from the drop-down menu select "Create New App".
+- Enter a unique and meaningful app name.
+- Select your region and click create app.
+
+### Attach the Postgres database:
+- In the Resources tab, under add-ons, type in Postgres and select the Heroku Postgres option.
+- Copy the DATABASE_URL located in Config Vars in the Settings Tab.
+
+### Prepare the environment and settings.py file:
+-
+
+
+
+
 
 
 
