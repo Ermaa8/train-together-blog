@@ -4,10 +4,42 @@ Train together blog is blog where you as a user can find good inspiration for yo
 
 This site acts as a repository for training sessions where user can store their own sessions as well as other users sessions.
 
-The live link can be found here -[Train Together Blog]
+The live link can be found here -[Train Together Blog](https://train-together-4d4fa50e508e.herokuapp.com/)
 
 # Table of Contents
 - [Train Together Blog](#train-together-blog)
+- [User Experience (UX)](#user-experience-ux)
+- [User Stories](#user-stories)
+    + [EPIC Post List](#design)
+    + [EPIC About](#about)
+    + [EPIC Sign In](#sign-in)
+    + [EPIC Comment](#comment)
+    + [EPIC Editing comments](#edditing-comments)
+    + [EPIC Adding pictures](#adding-pictures)
+- [Design and colour scheme](#design-and-colour-scheme)
+- [Imagery](#imagery)
+- [Wireframes](#wireframes)
+- [ Agile Methodology](#agile-Methodology)
+- [Testing](#testing)
+- [Features](#features)
+    + [Navigation Bar](#navigation-bar)
+    + [Footer](#footer)
+    + [Home Page](#home-page)
+    + [About](#about)
+- [User account pages](#user-account-pages)
+    + [Sign Up](#sign-up)
+    + [Log In](#log-in)
+    + [Log Out](#log-out)
+- [Deployment - Heroku](#deployment-heroku)
+    + [Create the Heroku App](#create-the-heroku-app)
+    + [Attach the Postgres database](#attach-the-postgres-database)
+    + [Prepare the environment and settings.py file](#prepare-the-environment-and-settings.py-file)
+    + [Create files/directories](#create-files/directories)
+    + [Update Heroku Config Vars](#uppdate-heroku-config-vars)
+    + [Deploy](#deploy)
+    + [Languages](#languages)
+    + [Frameworks - Libraries - Programs Used](#frameworks-libraries-programs-used)
+    + [Acknowledgments](#acknowledgments)
 
 ## User Experience (UX)
 A visitor to Train Together Blog would be someone who is most likely an adult who enjoy training inside and outside  and someone who want to save a time and effort planing too much infront of every training session.
@@ -53,8 +85,6 @@ Testing and results can be found here
 - Django's LoginRequiredMixin is used to make sure that users that are non-authenticated do not have acces to secure pages.
 
 ## Features
-### Header
-
 **Navigation Bar**
 - The navigation bar is present at the top of every page and includes links, as well as name of the site and a slogan.
 - When a user is logged in, menu changed to , Home, About, Logout. 
