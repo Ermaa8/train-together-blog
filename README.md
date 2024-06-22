@@ -87,7 +87,62 @@ Testing and results can be found here
 - Copy the DATABASE_URL located in Config Vars in the Settings Tab.
 
 ### Prepare the environment and settings.py file:
--
+- In your GitPod workspace, create env.py file.
+- Add the DATABASE_URL value and  SECRET_KEY t env.py file.
+- Update the settings.py file to import the env.py file and add the SECRETKEY and DATABASE_URL file paths.
+- Comment out  the default database configuration.
+- Save file than make migrations as usual.
+- Add Cloudinary URL to env.py.
+- Add the cloudinary libraries to the list of installed apps.
+Add the STATIC files settings - the url, storage path, directory path, root path, media url and default file storage path.
+- Link the file to the templates directory in Heroku.
+- Change the templates directory to TEMPLATES_DIR
+- Add Heroku to the ALLOWED_HOSTS list the format ['app_name.heroku.com', 'localhost']
+
+### Create files / directories
+- Create requirements.txt file.
+- - Create three directories in the main directory; media, storage and templates.
+- Create a file named "Procfile" in the main directory and add the following: web: gunicorn project-name.wsgi
+
+### Update Heroku Config Vars
+Add theese Config Vars in Heroku.
+- SECRET_KEY value (choose value)
+- CLOUDINARY_URL
+- PORT = 8000
+- DISABLE_COLLECTSTATIC = 1
+
+### Deploy
+- For every deployment DEBUG= False in settings.py.
+- On deploy tab on Heroku connect your project to Heroku.
+- Scroll down and deploy page manually.
+- Click view.
+
+## Languages
+- Python
+- HTML
+- CSS
+- Javascript
+
+## Frameworks - Libraries - Programs Used
+- [Django]
+- [Django-allauth]
+- [PostgreSQL]
+- [Heroku]
+- [Responsinator]
+- [Balsamiq]
+- [GitHub]
+- [Google-fonts]
+- [W3C]
+- [PEP8-Online]
+- [Favicon]
+- [Cloudinary]
+- [Bootstrap-4.6]
+
+## Acknowledgments
+Thanks to my mentor Antonio for his support and advice. Thanks to 
+The Code Institute slack community for their quick responses and very helpful feedback.
+
+
 
 
 
