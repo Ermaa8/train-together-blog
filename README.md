@@ -80,7 +80,7 @@ All of the images at the website are designed by different authors to make sure 
  GitHub projects was used to manage development process using agile approach. GitHub issues were created for every User Story and every User Story has defined acceptance criteria to make sure UserStory has been compleated.
 
 ## Testing
-Testing and results can be found here:
+- Testing and results can be found here:
 ![CSS](static/images/CSS.png)
 ![Html](static/images/Html.png)
 ![Terminal-testing](static/images/Terminaltesting.png)
