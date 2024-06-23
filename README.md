@@ -81,12 +81,8 @@ All of the images at the website are designed by different authors to make sure 
 
 ## Testing
 Testing and results can be found here:
-
-- CSS
 ![CSS](static/images/CSS.png)
-- HTML
 ![Html](static/images/Html.png)
-- Terminal testing
 ![Terminal-testing](static/images/Terminaltesting.png)
 - Every python file was manually tested with no errors found.
 ![Python](static/images/Python.png)
