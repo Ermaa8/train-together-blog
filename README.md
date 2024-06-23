@@ -80,7 +80,12 @@ All of the images at the website are designed by different authors to make sure 
  GitHub projects was used to manage development process using agile approach. GitHub issues were created for every User Story and every User Story has defined acceptance criteria to make sure UserStory has been compleated.
 
 ## Testing
-Testing and results can be found here
+Testing and results can be found here:
+![CSS](static/images/CSS.png)
+![Html](static/images/Html.png)
+![Terminal-testing](static/images/Terminaltesting.png)
+- Every python file was manually tested with no errors found.
+![Python](static/images/Python.png)
 
 ### User Authentication
 - Django's LoginRequiredMixin is used to make sure that users that are non-authenticated do not have acces to secure pages.
@@ -162,20 +167,19 @@ Add theese Config Vars in Heroku.
 - Javascript
 
 ## Frameworks - Libraries - Programs Used
-- [Django]
-- [Django-allauth]
-- [PostgreSQL]
-- [Heroku]
-- [Responsinator]
-- [Balsamiq]
-- [GitHub]
-- [Google-fonts]
-- [W3C]
-- [PEP8-Online]
-- [Favicon]
-- [Cloudinary]
-- [Bootstrap-4.6]
-- [I-am-responsive]
+- [Django](https://www.djangoproject.com/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Heroku](https://dashboard.heroku.com/apps)
+- [Balsamiq](https://balsamiq.com/)
+- [GitHub](https://github.com/)
+- [Google-fonts](https://fonts.google.com/)
+- [W3C](https://jigsaw.w3.org/css-validator/)
+- [PEP8](https://pep8ci.herokuapp.com/)
+- [Favicon](https://favicon.io/)
+- [Cloudinary](https://cloudinary.com/)
+- [Bootstrap-4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+- [I-am-responsive](https://ui.dev/amiresponsive)
+- [Tinypng](https://tinypng.com/)
 
 ## Acknowledgments
 Thanks to my mentor Antonio for his support and advice. Thanks to 
