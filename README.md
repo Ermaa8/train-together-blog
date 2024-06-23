@@ -5,7 +5,7 @@ Train together blog is blog where you as a user can find good inspiration for yo
 This site acts as a repository for training sessions where user can store their own sessions as well as other users sessions.
 
 The live link can be found here -[Train Together Blog](https://train-together-4d4fa50e508e.herokuapp.com/)
-
+![Train Together Devices](static/images/iamresponsive.png)
 # Table of Contents
 - [Train Together Blog](#train-together-blog)
 - [User Experience (UX)](#user-experience-ux)
@@ -167,6 +167,7 @@ Add theese Config Vars in Heroku.
 - [Favicon]
 - [Cloudinary]
 - [Bootstrap-4.6]
+- [I-am-responsive]
 
 ## Acknowledgments
 Thanks to my mentor Antonio for his support and advice. Thanks to 
