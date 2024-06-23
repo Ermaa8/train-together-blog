@@ -89,15 +89,19 @@ Testing and results can be found here
 **Navigation Bar**
 - The navigation bar is present at the top of every page and includes links, as well as name of the site and a slogan.
 - When a user is logged in, menu changed to , Home, About, Logout. 
+![Navigation Bar](static/images/tinified(10)/navbar.png)
 
 ### Footer
 - The footer section includes links to Facebook, Instagram, Twitter and Youtube.
+![Footer](static/images/tinified(10)/Footer.png)
 
 ### Home Page
 - Home page includes every post for this website. There is variation between gym training and outside in nature training so that every user can find something for themselves. In this section there is possibility to leave, uppdate and edit a comment as well as a delete a comment.
+![Home Page](static/images/tinified(10)/Homepage.png)
 
 **About**
 - About section includes information about this blog.
+![About](static/images/tinified(10)/About.png)
 
 ### User Account Pages
 **Sign Up**
