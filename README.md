@@ -144,7 +144,7 @@ Add the STATIC files settings - the url, storage path, directory path, root path
 
 ### Create files / directories
 - Create requirements.txt file.
-- - Create three directories in the main directory; media, storage and templates.
+- Create three directories in the main directory; media, storage and templates.
 - Create a file named "Procfile" in the main directory and add the following: web: gunicorn project-name.wsgi
 
 ### Update Heroku Config Vars
