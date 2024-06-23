@@ -6,6 +6,7 @@ This site acts as a repository for training sessions where user can store their 
 
 The live link can be found here -[Train Together Blog](https://train-together-4d4fa50e508e.herokuapp.com/)
 ![Train Together Devices](static/images/iamresponsive.png)
+
 # Table of Contents
 - [Train Together Blog](#train-together-blog)
 - [User Experience (UX)](#user-experience-ux)
@@ -37,9 +38,9 @@ The live link can be found here -[Train Together Blog](https://train-together-4d
     + [Create files/directories](#create-files/directories)
     + [Update Heroku Config Vars](#uppdate-heroku-config-vars)
     + [Deploy](#deploy)
-    + [Languages](#languages)
-    + [Frameworks - Libraries - Programs Used](#frameworks-libraries-programs-used)
-    + [Acknowledgments](#acknowledgments)
+- [Languages](#languages)
+- [Frameworks - Libraries - Programs Used](#frameworks-libraries-programs-used)
+- [Acknowledgments](#acknowledgments)
 
 ## User Experience (UX)
 A visitor to Train Together Blog would be someone who is most likely an adult who enjoy training inside and outside  and someone who want to save a time and effort planing too much infront of every training session.
@@ -100,8 +101,11 @@ Testing and results can be found here
 
 ### User Account Pages
 **Sign Up**
-**Log In**
-**Log Out**
+![Sign Up](static/images/Signup.png)
+**Sign In**
+![Sign In](static/images/Signin.png)
+**Sign Out**
+![Sign Out](static/images/Signout.png)
 
 ## Deployment - Heroku
 - To deploy this page to Heroku from its GitHub repository, the following steps were taken:
