@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-cnsqawq7v=h)tje(5&6x6)m@phjywa*en-vx%l9+*akc0lgn^z
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "8000-ermaa8-traintogether-dd2fc34vamg.ws-eu114.gitpod.io",
+    "8000-ermaa8-traintogetherblo-id3a8wh88rv.ws.codeinstitute-ide.net",
     ".herokuapp.com"
 ]
 
