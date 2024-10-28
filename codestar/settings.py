@@ -32,9 +32,12 @@ SECRET_KEY = 'django-insecure-cnsqawq7v=h)tje(5&6x6)m@phjywa*en-vx%l9+*akc0lgn^z
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "8000-ermaa8-traintogetherblo-id3a8wh88rv.ws.codeinstitute-ide.net",
+    "8000-ermaa8-traintogetherblo-bftz8kak31m.ws.codeinstitute-ide.net",
     ".herokuapp.com"
 ]
+
+CSRF_TRUSTED_ORIGINS = ['https://8000-ermaa8-traintogetherblo-bftz8kak31m.ws.codeinstitute-ide.net']
+
 
 # Application definition
 
@@ -119,10 +122,6 @@ SECRET_KEY = {
     os.environ.get("SECRET_KEY")
 }
 
-CSRF_TRUSTED_ORIGINS = [
-    "https://8000-ermaa8-traintogether-dd2fc34vamg.ws-eu114.gitpod.io",
-    "https://*.herokuapp.com"
-]
 
 
 # Password validation

@@ -22,6 +22,9 @@ The live link can be found here -[Train Together Blog](https://train-together-4d
 - [Wireframes](#wireframes)
 - [ Agile Methodology](#agile-Methodology)
 - [Testing](#testing)
+    + User Story Testing
+    + Validator testing
+
 - [Features](#features)
     + [Navigation Bar](#navigation-bar)
     + [Footer](#footer)
@@ -80,6 +83,37 @@ All of the images at the website are designed by different authors to make sure 
  GitHub projects was used to manage development process using agile approach. GitHub issues were created for every User Story and every User Story has defined acceptance criteria to make sure UserStory has been compleated.
 
 ## Testing
+### User stories testing
+### EPIC User Profile
+* A a site user I can register an account so I can delete and add a training content and comment on other people's programs.
+![Register-Account](static/images/registeraccount.png)
+- A sign up button is visible on the landing page as a call to action for the user to sign in and get started. When the user cliks the button they are taken to sign up page.
+- There is also one login button next to register bottom that takes users to sign up page when they have account already. 
+![Sign-in](static/images/Signin.png)
+![Sign-up](static/images/Signup.png)
+
+- Post list user stories: As a user i want to se list of posts and give a site more than one post at the time and a list is seen when a user opens a site.
+![post-list](static/images/postlist.png)
+
+- As a site user I want to read about this blog.
+![about](static/images/about.png)
+
+- As a user I want to have picture about specific post in a blog.
+![picture](static/images/picture.png)
+
+## Validator Testing
+
+### HTML
+- There is some errors that are shown in picture bellow for about.html.
+![about.html](static/images/about.png)
+
+
+
+
+
+
+
+
 - Testing and results can be found here:
 ![CSS](static/images/CSS.png)
 ![Html](static/images/Html.png)
