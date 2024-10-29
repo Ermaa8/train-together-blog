@@ -104,8 +104,19 @@ All of the images at the website are designed by different authors to make sure 
 ## Validator Testing
 
 ### HTML
-- There is some errors that are shown in picture bellow for about.html.
+- During testing for every html section, there is some errors presented in the pictures bellow. errors that appears doesn't affect negatively functionality of the project.
 ![about.html](static/images/about.png)
+![index.html](static/images/index.png)
+![post_detail.html](static/images/post_detail.png)
+![base.html](static/images/base.png)
+![login.html](static/images/login.png)
+![logout.html](static/images/logout.png)
+
+
+
+
+
+
 
 
 
