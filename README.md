@@ -128,6 +128,17 @@ All of the images at the website are designed by different authors to make sure 
 | Logout Link           | Display    | Only visible when user is logged in                                | Pass      |
 | Main section(post)    | Click      | Opens clicked post                                                 | Pass      |
 | User Login            | Click      | Opens login page                                                   | Pass      |
+
+
+| Mobile View           |            |                                                                    |           |
+| Home Link             | Click      | Redirect to home                                                   | Pass      |
+| Browse Recipes Link   | Click      | Open Browse Recipes Page                                           | Pass      |
+| Sign Up Link          | Click      | Open Sign up page                                                  | Pass      |
+| Sign Up Link          | Display    | Not visible if user in session                                     | Pass      |
+| Log In Link           | Click      | Open Login page                                                    | Pass      |
+| Log In Link           | Display    | Not visible if user in session                                     | Pass      |
+| Logout Link           | Click      | Open logout confirm page                                           | Pass      |
+| Logout Link           | Display    | Only visible if user in session                                    | Pass      |
 | Footer(all links)     | Visible    | All links are visible on site                                      | Pass      |
 
 ### Training detail page
@@ -146,23 +157,47 @@ All of the images at the website are designed by different authors to make sure 
 | Post 10               | Click      | Views post                                                         | Pass      |
 | User comment          | Display    | Displays correct name,date,time and comment body                                                        | Pass      |
 | User comment          | Display    | Comments are ordered oldest to newest                                                         | Pass      |
-| Post 9                | Click      | Views post                                                         | Pass      |
-| Post 10               | Click      | Views post                                                         | Pass      |
-           
-          
+| Edit comment button   | Display    | Button only visible if user is the comment author                                                           | Pass      |
+| Leave a comment button| Click      | Views comment box                                                         | Pass      |
+| Delete comment        | Click      | Opens delete comment tab                                                         | Pass      |
+| Submit button                      | Click      | Submitting a comment                                                         | Pass      |
+         
+### Django All Auth Pages        
 
+| Element               | Action     | Expected Result                                                    | Pass/Fail |
+|-----------------------|------------|--------------------------------------------------------------------|-----------|
+| Sign Up               |            |                                                                    |           |
+| Log in link           | Click      | Redirect to login page                                             | Pass      |
+| Username field        | Leave empty| On submit: form won't submit                                       | Pass      |
+| Username field        | Leave empty| Fill this field appears                                            | Pass      |
+| Username field        | Insert correct format| On submit: form submit                                   | Pass      |
+| Email field           | Insert incorrect format| On submit: form won't submit                           | Pass      |
+| Email field           | Insert incorrect format| Fill this field appears                                | Pass      |
+| Email field           | Insert correct format  | On submit: form submit                                 | Pass      |
+| Password field        | Insert incorrect format| On submit: form won't submit                           | Pass      |
+| Password field        | Insert incorrect format| Fill this field appears                                | Pass      |
+| Password field        | Passwords don't match  | On submit: form won't submit                           | Pass      |
+| Password field        | Passwords don't match  | Error message displays                                 | Pass      |
+| Password field        | Insert correct format and passwords match | On submit: form submit              | Pass      |
+| Sign Up button        | Click                                     | Form submit                         | Pass      |
+| Sign Up button        | Click                                     | Redirect to signup page             | Pass      |
 
+| Login in              |                                           |                                     |           |
+| Sign up link          | Click                                     | Redirect to sign up page            | Pass      |
+| Username field        | Leave empty                               | On submit: form won't submit        | Pass      |
+| Username field        | Leave empty                               | Fill this part appears              | Pass      |
+| Username field        | Insert wrong username                     | On submit: form won't submit        | Pass      |
+| Password field        | Leave empty                               | On submit: form won't submit        | Pass      |
+| Password field        | Leave empty                               | Fill this part appears              | Pass      |
+| Password field        | Insert wrong password                     | On submit: form won't submit        | Pass      |
+| Password field        | Insert wrong password                     | Error message displays              | Pass      |
+| Login button          | Click                                     | Form submit                         | Pass      |
+| Login button          | Click                                     | Redirect to home page               | Pass      |
+| Login button          | Click                                     | Success message confirming login appears| Pass      |
 
-
-
-
-
-
-
-
-
-
-
+| Log out              |                                           |                                     |           |
+| Logout button          | Click                                     | Redirect to homepage                | Pass      |
+| Logout button          | Click                                     | Success message confirming log out appears | Pass      |
 
 
 - Testing and results can be found here:
