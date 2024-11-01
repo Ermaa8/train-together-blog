@@ -104,13 +104,53 @@ All of the images at the website are designed by different authors to make sure 
 ## Validator Testing
 
 ### HTML
-- During testing for every html section, there is some errors presented in the pictures bellow. errors that appears doesn't affect negatively functionality of the project.
+- During testing for every html section, there is some errors presented in the pictures bellow. Errors that appears doesn't affect negatively functionality of the project.
 ![about.html](static/images/about.png)
 ![index.html](static/images/index.png)
 ![post_detail.html](static/images/post_detail.png)
 ![base.html](static/images/base.png)
 ![login.html](static/images/login.png)
 ![logout.html](static/images/logout.png)
+![signup.html](static/images/signup.png) 
+
+## Manual Testing
+### Site Navigation
+
+| Element               | Action     | Expected Result                                                    | Pass/Fail |
+|-----------------------|------------|--------------------------------------------------------------------|-----------|
+| NavBar                |            |                                                                    |           |
+| Home Link             | Click      | Redirect to home                                                   | Pass      |
+| About Link            | Click      | Redirect to about section                                          | Pass      |
+| Register Link         | Click      | Opens register page                                                | Pass      |
+| Register Link         | Display    | Only visible when user is logged in                                | Pass      |
+| Login Link            | Click      | Opens login page                                                   | Pass      |
+| Logout Link           | Click      | Opens logout page                                                  | Pass      |
+| Logout Link           | Display    | Only visible when user is logged in                                | Pass      |
+| Main section(post)    | Click      | Opens clicked post                                                 | Pass      |
+| User Login            | Click      | Opens login page                                                   | Pass      |
+| Footer(all links)     | Visible    | All links are visible on site                                      | Pass      |
+
+### Training detail page
+
+| Element               | Action     | Expected Result                                                    | Pass/Fail |
+|-----------------------|------------|--------------------------------------------------------------------|-----------|
+| Post 1                | Click      | Views post                                                         | Pass      |
+| Post 2                | Click      | Views post                                                         | Pass      |
+| Post 3                | Click      | Views post                                                         | Pass      |
+| Post 4                | Click      | Views post                                                         | Pass      |
+| Post 5                | Click      | Views post                                                         | Pass      |
+| Post 6                | Click      | Views post                                                         | Pass      |
+| Post 7                | Click      | Views post                                                         | Pass      |
+| Post 8                | Click      | Views post                                                         | Pass      |
+| Post 9                | Click      | Views post                                                         | Pass      |
+| Post 10               | Click      | Views post                                                         | Pass      |
+| User comment          | Display    | Displays correct name,date,time and comment body                                                        | Pass      |
+| User comment          | Display    | Comments are ordered oldest to newest                                                         | Pass      |
+| Post 9                | Click      | Views post                                                         | Pass      |
+| Post 10               | Click      | Views post                                                         | Pass      |
+           
+          
+
 
 
 
