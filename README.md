@@ -229,7 +229,7 @@ All of the images at the website are designed by different authors to make sure 
 **Navigation Bar**
 - The navigation bar is present at the top of every page and includes links, as well as name of the site and a slogan.
 - When a user is logged in, menu changed to , Home, About, Logout. 
-![Navigation Bar](static/images/tinified(10)/navbar.png)
+![Navigation Bar](static/images/tinified(10)/Navbar.png)
 
 ### Footer
 - The footer section includes links to Facebook, Instagram, Twitter and Youtube.
