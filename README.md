@@ -113,6 +113,13 @@ All of the images at the website are designed by different authors to make sure 
 ![logout.html](static/images/logout.png)
 ![signup.html](static/images/signup.png) 
 
+- Testing and results can be found here:
+![CSS](static/images/CSS.png)
+![Html](static/images/Html.png)
+![Terminal-testing](static/images/Terminaltesting.png)
+- Every python file was manually tested with no errors found.
+![Python](static/images/Python.png)
+
 ## Manual Testing
 ### Site Navigation
 
@@ -195,17 +202,23 @@ All of the images at the website are designed by different authors to make sure 
 | Login button          | Click                                     | Redirect to home page               | Pass      |
 | Login button          | Click                                     | Success message confirming login appears| Pass      |
 
-| Log out              |                                           |                                     |           |
-| Logout button          | Click                                     | Redirect to homepage                | Pass      |
-| Logout button          | Click                                     | Success message confirming log out appears | Pass      |
+| Log out               |                                           |                                     |           |
+| Logout button         | Click                                     | Redirect to homepage                | Pass      |
+| Logout button         | Click                                     | Success message confirming log out appears| Pass      |
+
+## Browser Testing
+- The Website was tested on Google Chrome, Firefox, Safari browsers with no issues noted.
+
+## Device Testing
+- The website was viewed on three devices and it's presented in a pictures below. Responsive desing is used to test this part.
+![Desktop](static/images/desktop.png)
+![Ipad](static/images/ipad.png)
+![Phone](static/images/phone.png)
+
+## Bugs 
+### Fixed Bugs
 
 
-- Testing and results can be found here:
-![CSS](static/images/CSS.png)
-![Html](static/images/Html.png)
-![Terminal-testing](static/images/Terminaltesting.png)
-- Every python file was manually tested with no errors found.
-![Python](static/images/Python.png)
 
 ### User Authentication
 - Django's LoginRequiredMixin is used to make sure that users that are non-authenticated do not have acces to secure pages.
@@ -300,6 +313,7 @@ Add theese Config Vars in Heroku.
 - [Bootstrap-4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 - [I-am-responsive](https://ui.dev/amiresponsive)
 - [Tinypng](https://tinypng.com/)
+- [Responsivedesignchecker](https://responsivedesignchecker.com/#home)
 
 ## Acknowledgments
 Thanks to my mentor Antonio for his support and advice. Thanks to 
