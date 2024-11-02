@@ -96,7 +96,7 @@ All of the images at the website are designed by different authors to make sure 
 ![post-list](static/images/postlist.png)
 
 - As a site user I want to read about this blog.
-![about](static/images/about.png)
+![about](static/images/about2.png)
 
 - As a user I want to have picture about specific post in a blog.
 ![picture](static/images/picture.png)
