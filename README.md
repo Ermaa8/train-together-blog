@@ -105,13 +105,13 @@ All of the images at the website are designed by different authors to make sure 
 
 ### HTML
 - During testing for every html section, there is some errors presented in the pictures bellow. Errors that appears doesn't affect negatively functionality of the project.
-![about.html](static/images/about.png)
-![index.html](static/images/index.png)
-![post_detail.html](static/images/post_detail.png)
-![base.html](static/images/base.png)
-![login.html](static/images/login.png)
-![logout.html](static/images/logout.png)
-![signup.html](static/images/signup.png) 
+- ABOUT.HTML ![about.html](static/images/about.png)
+- INDEX.HTML ![index.html](static/images/index.png)
+- POST_DETAIL.HTML ![post_detail.html](static/images/post_detail.png)
+- BASE.HTML ![base.html](static/images/base.png)
+- LOGIN.HTML ![login.html](static/images/login.png)
+- LOGOUT.HTML ![logout.html](static/images/logout.png)
+- SIGNUP.HTML ![signup.html](static/images/signup.png) 
 
 - Testing and results can be found here:
 ![CSS](static/images/CSS.png)
