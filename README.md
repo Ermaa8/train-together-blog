@@ -218,6 +218,8 @@ All of the images at the website are designed by different authors to make sure 
 ## Bugs 
 ### Fixed Bugs
 
+- ### Django Packages
+    - After following a walkthrought project many django packages were installed, but for some reason not every package worked in this project. However after some research and talking to tutors and getting right version, the riggt version of packages were installed into project. 
 
 
 ### User Authentication
