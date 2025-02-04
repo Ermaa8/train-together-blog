@@ -84,21 +84,41 @@ All of the images at the website are designed by different authors to make sure 
 
 ## Testing
 ### User stories testing
+* This section outlines the testing process for the application, covering user story testing, validation testing, manual testing, and browser/device testing. The purpose of these tests is to ensure that all functionalities work as expected and that the user experience remains smooth across different platforms.
+
 ### EPIC User Profile
-* A a site user I can register an account so I can delete and add a training content and comment on other people's programs.
-![Register-Account](static/images/registeraccount.png)
-- A sign up button is visible on the landing page as a call to action for the user to sign in and get started. When the user cliks the button they are taken to sign up page.
-- There is also one login button next to register bottom that takes users to sign up page when they have account already. 
+* As a site user, I want to register an account so that I can create and manage training content, as well as comment on other users' programs.
+One of the key features of the platform is user authentication, enabling personalized interaction and content creation. The registration process is designed to be simple and intuitive, guiding new users through an easy sign-up process.
+
+A clear and visible "Sign Up" button is prominently placed on the landing page, serving as a call to action for new users.
+Clicking the button redirects users to the registration page, where they can create an account by providing their username, email, and password.
+Users who already have an account can instead click the "Login" button, conveniently located next to the "Sign Up" button, directing them to the login page.
+![Register-Account](static/images/registeraccount.png) 
 ![Sign-in](static/images/Signin.png)
 ![Sign-up](static/images/Signup.png)
 
-- Post list user stories: As a user i want to se list of posts and give a site more than one post at the time and a list is seen when a user opens a site.
+- As a user, I want to see a list of posts so that I can browse multiple pieces of training content at once.
+Upon accessing the site, users are immediately presented with a dynamic and engaging list of posts. This ensures that users can:
+
+Quickly browse through multiple training programs without needing to navigate away from the homepage.
+Discover new workouts, techniques, or fitness insights shared by other users.
+Engage with varied content, including text descriptions, images, and user-generated comments.
+The post list is structured to be visually appealing and easily accessible, ensuring that users can effortlessly explore training content.
 ![post-list](static/images/postlist.png)
 
-- As a site user I want to read about this blog.
+- As a site user, I want to read about the purpose of this blog so that I can understand its goals and features.
+A dedicated "About" section provides users with essential information regarding the platform’s purpose, mission, and intended audience. This section ensures that users can:
+
+Understand the platform’s vision—whether it’s a community-driven space for training discussions or a resource hub for fitness enthusiasts.
+Gain insights into how they can contribute, whether by posting their own workouts, commenting on others, or engaging with the community.
 ![about](static/images/about2.png)
 
-- As a user I want to have picture about specific post in a blog.
+- As a user, I want to see images associated with specific posts so that I can visualize the training content.
+A picture is worth a thousand words—especially in the fitness world! The platform allows users to include images in their posts, enhancing engagement and clarity. This feature ensures that users can:
+
+See real examples of workouts, equipment, or exercise demonstrations.
+Gain a better understanding of training techniques by viewing accompanying visuals.
+Enjoy a more immersive experience with visually rich content.
 ![picture](static/images/picture.png)
 
 ## Validator Testing
@@ -126,8 +146,8 @@ All of the images at the website are designed by different authors to make sure 
 | Element               | Action     | Expected Result                                                    | Pass/Fail |
 |-----------------------|------------|--------------------------------------------------------------------|-----------|
 | NavBar                |            |                                                                    |           |
-| Home Link             | Click      | Redirect to home                                                   | Pass      |
-| About Link            | Click      | Redirect to about section                                          | Pass      |
+| Home Link             | Click      |Redirects the user to the homepage. The page loads correctly.       | Pass      |
+| About Link            | Click      |Redirects the user to the About section, displaying relevant information.                                                                                              | Pass      |
 | Register Link         | Click      | Opens register page                                                | Pass      |
 | Register Link         | Display    | Only visible when user is logged in                                | Pass      |
 | Login Link            | Click      | Opens login page                                                   | Pass      |
