@@ -148,7 +148,7 @@ Enjoy a more immersive experience with visually rich content.
 | NavBar                |            |                                                                    |           |
 | Home Link             | Click      |Redirects the user to the homepage. The page loads correctly.       | Pass      |
 | About Link            | Click      |Redirects the user to the About section, displaying relevant information.                                                                                              | Pass      |
-| Register Link         | Click      | Opens register page                                                | Pass      |
+| Register Link         | Click      |    Opens the registration page where users can create an account.                                             | Pass      |
 | Register Link         | Display    | Only visible when user is logged in                                | Pass      |
 | Login Link            | Click      | Opens login page                                                   | Pass      |
 | Logout Link           | Click      | Opens logout page                                                  | Pass      |
