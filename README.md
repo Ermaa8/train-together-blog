@@ -149,24 +149,24 @@ Enjoy a more immersive experience with visually rich content.
 | Home Link             | Click      |Redirects the user to the homepage. The page loads correctly.       | Pass      |
 | About Link            | Click      |Redirects the user to the About section, displaying relevant information.                                                                                              | Pass      |
 | Register Link         | Click      |    Opens the registration page where users can create an account.                                             | Pass      |
-| Register Link         | Display    | Only visible when user is logged in                                | Pass      |
-| Login Link            | Click      | Opens login page                                                   | Pass      |
-| Logout Link           | Click      | Opens logout page                                                  | Pass      |
-| Logout Link           | Display    | Only visible when user is logged in                                | Pass      |
-| Main section(post)    | Click      | Opens clicked post                                                 | Pass      |
-| User Login            | Click      | Opens login page                                                   | Pass      |
+| Register Link         | Display    |Only visible when the user is not logged in.                              | Pass      |
+| Login Link            | Click      |Opens the login page where users can sign in.                                                 | Pass      |
+| Logout Link           | Click      |Logs the user out and redirects them to the homepage.                                                 | Pass      |
+| Logout Link           | Display    |Only visible when the user is logged in.                              | Pass      |
+| Main section(post)    | Click      |Opens the selected post, showing full content and user comments.                                             | Pass      |
+| User Login            | Click      |Opens the login page.                                                 | Pass      |
 
 
 | Mobile View           |            |                                                                    |           |
-| Home Link             | Click      | Redirect to home                                                   | Pass      |
-| Browse Recipes Link   | Click      | Open Browse Recipes Page                                           | Pass      |
-| Sign Up Link          | Click      | Open Sign up page                                                  | Pass      |
-| Sign Up Link          | Display    | Not visible if user in session                                     | Pass      |
-| Log In Link           | Click      | Open Login page                                                    | Pass      |
-| Log In Link           | Display    | Not visible if user in session                                     | Pass      |
-| Logout Link           | Click      | Open logout confirm page                                           | Pass      |
-| Logout Link           | Display    | Only visible if user in session                                    | Pass      |
-| Footer(all links)     | Visible    | All links are visible on site                                      | Pass      |
+| Home Link             | Click      |Redirects to the homepage, ensuring full mobile responsiveness.                                                 | Pass      |
+| Browse Training Programs Link  | Click      |Opens the training program list page, correctly formatted for mobile.                                         | Pass      |
+| Sign Up Link          | Click      |Opens the sign-up page.                                                 | Pass      |
+| Sign Up Link          | Display    |Not visible if the user is already logged in.                                    | Pass      |
+| Log In Link           | Click      |Opens the login page.                                                  | Pass      |
+| Log In Link           | Display    |Not visible if the user is already logged in.                                     | Pass      |
+| Logout Link           | Click      |Opens a logout confirmation page before logging out the user.                                         | Pass      |
+| Logout Link           | Display    |Only visible if the user is logged in.                                  | Pass      |
+| Footer(all links)     | Visible    |All links are visible and functional on mobile devices.                                   | Pass      |
 
 ### Training detail page
 
@@ -234,6 +234,9 @@ Enjoy a more immersive experience with visually rich content.
 ![Desktop](static/images/desktop.png)
 ![Ipad](static/images/ipad.png)
 ![Phone](static/images/phone.png)
+
+## ERD-diagram
+![ERD](static/images/erd.png)
 
 ## Bugs 
 ### Fixed Bugs

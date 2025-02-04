@@ -2,8 +2,8 @@ from django.db import models
 
 # Create your models here.
 class About(models.Model):
-    title = models.CharField(max_length=200, unique=True)
-    content = models.TextField()
+    title = models.CharField(max_length=200, unique=True, db_index=True)
+    content = models.TextField()  
     updated_on = models.DateTimeField(auto_now=True)
 
 
