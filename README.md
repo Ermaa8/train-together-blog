@@ -205,10 +205,10 @@ Enjoy a more immersive experience with visually rich content.
 | Password field        | Insert incorrect format| Fill this field appears                                | Pass      |
 | Password field        | Passwords don't match  | On submit: form won't submit                           | Pass      |
 | Password field        | Passwords don't match  | Error message displays                                 | Pass      |
-| Password field        | Insert correct format and passwords match | On submit: form submit              | Pass      |
+| Password field        | Insert correct format and passwords match 
+| On submit: form submit              | Pass      |
 | Sign Up button        | Click                                     | Form submit                         | Pass      |
 | Sign Up button        | Click                                     | Redirect to signup page             | Pass      |
-
 | Login in              |                                           |                                     |           |
 | Sign up link          | Click                                     | Redirect to sign up page            | Pass      |
 | Username field        | Leave empty                               | On submit: form won't submit        | Pass      |
