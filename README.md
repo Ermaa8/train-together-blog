@@ -221,7 +221,6 @@ Enjoy a more immersive experience with visually rich content.
 | Login button          | Click                                     | Form submit                         | Pass      |
 | Login button          | Click                                     | Redirect to home page               | Pass      |
 | Login button          | Click                                     | Success message confirming login appears| Pass      |
-
 | Log out               |                                           |                                     |           |
 | Logout button         | Click                                     | Redirect to homepage                | Pass      |
 | Logout button         | Click                                     | Success message confirming log out appears| Pass      |
